@@ -12,7 +12,7 @@ from twilio.base.exceptions import TwilioRestException
 app = Flask(__name__)
 CORS(app)
 
-TWILIO_ACCOUNT_SID = "ACCOUNT_SID"
+TWILIO_ACCOUNT_SID = "TWILIO_ACCOUNT_SID"
 TWILIO_PHONE_NUMBER = "TWILIO_PHONE_NUMBER"
 TWILIO_AUTH_TOKEN = "TWILIO_AUTH_TOKEN"
 
